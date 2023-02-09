@@ -1,0 +1,7 @@
+<script>
+  // Number型では正常処理の対象外のため、誤った数値が表示される。
+  console.log( 2 ** 53 + 1);
+
+  //BigInt型であれば問題なく表示可能
+  console.log( 2n ** 53n + 1n );
+</script>
