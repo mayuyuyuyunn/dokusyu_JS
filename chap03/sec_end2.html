@@ -1,0 +1,12 @@
+<script>
+  const TAX_RATE = 1.1;
+  let productPrice = 1000;
+
+  let taxPrice = productPrice * TAX_RATE
+
+  // 加算演算子を使った場合
+  console.log( "商品の金額は" + productPrice + "ですので、合計金額は" + taxPrice + "円です" );
+
+  // テンプレートリテラルを使った場合
+  console.log( `商品の金額は${productPrice}ですので、合計金額は${taxPrice}円です` );  
+</script>
